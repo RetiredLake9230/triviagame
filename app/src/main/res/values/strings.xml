@@ -4,4 +4,5 @@
     <string name="aboutessay">Hello. My name is [redacted]. I have [N/A] pets, and live in [Redacted].
         I am making this app for a school project, and I will update this app once I get a grade. </string>
     <string name="start">Click an option to start...</string>
+    <string name="back">back</string>
 </resources>
