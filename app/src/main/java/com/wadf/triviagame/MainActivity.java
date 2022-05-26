@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //pat code here
-                Intent intent = new Intent(MainActivity.this, AboutPage.class);
+                Intent intent = new Intent(MainActivity.this, Question1.class);
                 startActivity(intent);
                 //toast
                 String message = "Starting now.. Try your best!";
