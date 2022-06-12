@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">trivia game</string>
     <string name="abouttitle">About the Creator</string>
-    <string name="aboutessay">Hello. My name is _____. I have __ pets, and live in ________.
-        I am making this app _____________. </string>
+    <string name="aboutessay">Hello. My name is _____. I have  pets, and live in [Redacted].
+        I am making this app for a school project, and I will update this app once I get a grade. </string>
     <string name="start">Click an option to start...</string>
     <string name="back">back</string>
     <string name="startbutton">start</string>
-    <string name="q1">How do you spell 12th?</string>
 </resources>
