@@ -15,11 +15,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.about);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button abt = (Button) findViewById(R.id.about);
+        abt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //pat code here
                 Intent intent = new Intent(MainActivity.this, AboutPage.class);
+                startActivity(intent);
+            }
+        });
+        Button start = (Button) findViewById(R.id.startkey);
+        start.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                //pat code here
+                Intent intent = new Intent(MainActivity.this, Question1.class);
                 startActivity(intent);
             }
         });

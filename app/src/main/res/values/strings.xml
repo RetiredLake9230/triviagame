@@ -7,4 +7,8 @@
     <string name="back">back</string>
     <string name="startbutton">start</string>
     <string name="q1">How do you spell 12th?</string>
+    <string name="q1a">twelfth</string>
+    <string name="q1b">twelve</string>
+    <string name="q1c">twelth</string>
+    <string name="q1d">twelvth</string>
 </resources>
